@@ -49,7 +49,7 @@ input#menu__icon:checked + .menu__icon-bg > .menu__icon {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 350px;
+  width: 320px;
   background-color: var(--color-white);
 }
 
