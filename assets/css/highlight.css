@@ -1,0 +1,24 @@
+.highlight__title {
+  color: var(--color-secondary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  background-color: var(--color-white);
+  padding-block: 20px 10px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.15));
+}
+
+.swiper-pagination {
+  position: initial;
+  padding: 10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}

@@ -1,0 +1,67 @@
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 20px;
+  background-color: var(--color-white);
+}
+
+.subscribe__title {
+  background: var(--color-primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.subscribe__paragraph {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  background: var(--color-primary-gradient);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.subscribe__input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--color-primary);
+  padding: 10px 24px;
+  border-radius: 24px;
+}
+
+.input__icon {
+  width: 20px;
+  height: 16px;
+  display: inline-block;
+  background: url('../images/email.svg') no-repeat center;
+}
+
+.input__area {
+  border: 0;
+  background: var(--color-primary-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.input__area::placeholder {
+  background: var(--color-primary-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--font-family);
+}
+
+.input__area:focus-visible {
+  outline: none;
+}

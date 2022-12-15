@@ -1,0 +1,33 @@
+.recent {
+  background: var(--color-primary-gradient);
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.recent__title {
+  font-size: 16px;
+  color: var(--color-white);
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.recent__topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent__topic {
+  color: var(--color-white);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 16px 24px;
+  background-color: var(--color-secondary);
+  line-height: 21px;
+}

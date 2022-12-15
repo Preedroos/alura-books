@@ -7,12 +7,18 @@
     <title>Alura Books</title>
 
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link
       rel="shortcut icon"
       href="assets/images/favicon.ico"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
     <header class="header">
       <nav class="header__nav">
@@ -59,5 +65,190 @@
         autocomplete="off"
       />
     </section>
+
+    <section class="highlight">
+      <h2 class="highlight__title">ÚLTIMOS LANÇAMENTOS</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              src="assets/images/book1.svg"
+              alt="Livro Apache Kafka e Spring Boot"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/book2.svg"
+              alt="Livro Liderança em Design"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/book3.svg"
+              alt="Livro JavaScript Assertivo"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/book4.svg"
+              alt="Livro Arquitetura de Software Distribuído"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/book5.svg"
+              alt="Livro Lógica de Programação com Portugol"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/book6.svg" alt="Livro Tuning de SQL" />
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="card">
+        <div class="card__column">
+          <h3 class="card__hint">Talvez você também se interesse por...</h3>
+          <h4 class="card__title">Angular 11 e Firebase</h4>
+          <p class="card__paragraph">
+            Construindo uma aplicação integrada com a plataforma do Google.
+          </p>
+          <div class="card__icons">
+            <img src="assets/images/heart.svg" alt="Favoritar" />
+            <img src="assets/images/bag.svg" alt="Comprar" />
+          </div>
+        </div>
+        <div class="card__column">
+          <img
+            class="card__image"
+            src="assets/images/angular.svg"
+            alt="Angular"
+          />
+          <a class="card__about" href="">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <h2 class="highlight__title">MAIS VENDIDOS</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              src="assets/images/book1.svg"
+              alt="Livro Apache Kafka e Spring Boot"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/book2.svg"
+              alt="Livro Liderança em Design"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/book3.svg"
+              alt="Livro JavaScript Assertivo"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/book4.svg"
+              alt="Livro Arquitetura de Software Distribuído"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/book5.svg"
+              alt="Livro Lógica de Programação com Portugol"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/book6.svg" alt="Livro Tuning de SQL" />
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="card">
+        <div class="card__column">
+          <h3 class="card__hint">
+            <div>
+              <img src="assets/images/star.svg" alt="" />
+              <img src="assets/images/star.svg" alt="" />
+              <img src="assets/images/star.svg" alt="" />
+              <img src="assets/images/star.svg" alt="" />
+              <img src="assets/images/star.svg" alt="" />
+            </div>
+            Autora do Mês
+          </h3>
+          <h4 class="card__title">Juliana Agarikov</h4>
+          <p class="card__paragraph">
+            Analista de sistemas e escritora, Juliana é especialista em
+            Front-End.
+          </p>
+          <div class="card__icons">
+            <img src="assets/images/heart.svg" alt="Favoritar" />
+            <img src="assets/images/bag.svg" alt="Comprar" />
+          </div>
+        </div>
+        <div class="card__column">
+          <img
+            class="card__image"
+            src="assets/images/juliana.svg"
+            alt="Juliana vestindo uma roupa laranja e sorrindo"
+          />
+          <a class="card__about" href="">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="recent">
+      <h2 class="recent__title">TÓPICOS VISITADOS RECENTEMENTE</h2>
+      <div class="recent__topics">
+        <a class="recent__topic" href="">Android</a>
+        <a class="recent__topic" href="">Marketing</a>
+        <a class="recent__topic" href="">Agile</a>
+        <a class="recent__topic" href="">Startups</a>
+        <a class="recent__topic" href="">HTML & CSS</a>
+        <a class="recent__topic" href="">Python</a>
+        <a class="recent__topic" href="">OO</a>
+        <a class="recent__topic" href="">Java</a>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <h3 class="subscribe__title">Fique por dentro das novidades!</h3>
+      <p class="subscribe__paragraph">
+        Atualizações de e-books, novos livros, promoções e outros.
+      </p>
+      <div class="subscribe__input">
+        <span class="input__icon"></span>
+        <input
+          class="input__area"
+          type="text"
+          placeholder="Cadastre seu e-mail"
+        />
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__paragraph">Grupo Alura</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
   </body>
 </html>

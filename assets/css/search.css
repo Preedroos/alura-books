@@ -45,6 +45,7 @@
   color: var(--color-white);
   font-size: 14px;
   opacity: 0.8;
+  font-family: var(--font-family);
 }
 
 .search__input:hover,
