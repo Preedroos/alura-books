@@ -3,6 +3,7 @@
   position: relative;
   justify-content: space-between;
   background-color: var(--color-white);
+  padding-right: 16px;
 }
 
 .header__nav {
@@ -65,7 +66,6 @@ input#menu__icon:checked ~ .menu__list {
   font-size: 16px;
   padding: 16px;
 }
-
 .menu__list-item {
   background: var(--color-primary-gradient);
   -webkit-background-clip: text;
@@ -86,6 +86,14 @@ input#menu__icon:checked ~ .menu__list {
   display: none;
 }
 
+.header__nav-desktop {
+  display: none;
+}
+
+.header__icon-span {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .header {
     height: 80px;
@@ -101,5 +109,89 @@ input#menu__icon:checked ~ .menu__list {
 
   .header__nav:nth-child(2) {
     padding-right: 0;
+  }
+
+  .header__nav-desktop {
+    display: inline-block;
+  }
+
+  .header__nav-desktop-list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+  }
+
+  .header__nav-desktop-list a {
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+
+  .cat__input {
+    display: none;
+  }
+
+  .cat__list {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    background-color: var(--color-white);
+    z-index: 10;
+  }
+
+  input.cat__input:checked ~ .cat__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__nav-heart {
+    display: none;
+  }
+
+  .cat {
+    color: black;
+    padding: 20px 10px;
+  }
+
+  .cat:hover,
+  input.cat__input:checked + .cat__label > .cat {
+    background: var(--color-primary-gradient);
+    -webkit-text-fill-color: var(--color-white);
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .header__nav-desktop {
+    margin-inline: 40px auto;
+  }
+
+  .header__nav-bag {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 5px;
+  }
+
+  .header__nav-bag span {
+    display: inline-block;
+  }
+
+  .header__nav-user {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 5px;
+  }
+
+  .header__nav-user span {
+    display: inline-block;
   }
 }

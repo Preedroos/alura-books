@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -47,10 +47,41 @@
           alt=""
         />
       </nav>
+
+      <nav class="header__nav-desktop">
+        <ul class="header__nav-desktop-list">
+          <input class="cat__input" id="cat__input" type="checkbox" />
+          <label class="cat__label" for="cat__input">
+            <li class="cat">CATEGORIAS</li>
+          </label>
+          <ul class="cat__list">
+            <li class="menu__list-item">PROGRAMAÇÃO</li>
+            <li class="menu__list-item">FRONT-END</li>
+            <li class="menu__list-item">INFRAESTRUTURA</li>
+            <li class="menu__list-item">BUSINESS</li>
+            <li class="menu__list-item">DESIGN & UX</li>
+          </ul>
+          <li><a href="">FAVORITOS</a></li>
+          <li><a href="">MINHA ESTANTE</a></li>
+        </ul>
+      </nav>
+
       <nav class="header__nav">
-        <a href=""><img src="assets/images/heart.svg" alt="Favoritos" /></a>
-        <a href=""><img src="assets/images/bag.svg" alt="Compras" /></a>
-        <a href=""><img src="assets/images/user.svg" alt="Usuário" /></a>
+        <a class="header__nav-heart" href=""
+          ><img src="assets/images/heart.svg" alt="Favoritos"
+        /></a>
+        <a class="header__nav-bag" href=""
+          ><img src="assets/images/bag.svg" alt="Compras" /><span
+            class="header__icon-span"
+            >Minha sacola</span
+          ></a
+        >
+        <a class="header__nav-user" href=""
+          ><img src="assets/images/user.svg" alt="Usuário" /><span
+            class="header__icon-span"
+            >Meu perfil</span
+          ></a
+        >
       </nav>
     </header>
 

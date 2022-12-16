@@ -29,6 +29,11 @@
     padding-block: 10px 40px;
   }
 
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+  }
+
   .highlight__title {
     font-size: 26px;
     line-height: 39px;
