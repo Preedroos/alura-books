@@ -51,6 +51,7 @@ input#menu__icon:checked + .menu__icon-bg > .menu__icon {
   left: 0;
   width: 320px;
   background-color: var(--color-white);
+  z-index: 10;
 }
 
 input#menu__icon:checked ~ .menu__list {
@@ -79,4 +80,26 @@ input#menu__icon:checked ~ .menu__list {
   background: var(--color-primary-gradient);
   transition: var(--transition);
   -webkit-text-fill-color: var(--color-white);
+}
+
+.header__logo-text {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    height: 80px;
+    padding-inline: 10%;
+  }
+  .menu {
+    display: none;
+  }
+
+  .header__logo-text {
+    display: inline-block;
+  }
+
+  .header__nav:nth-child(2) {
+    padding-right: 0;
+  }
 }

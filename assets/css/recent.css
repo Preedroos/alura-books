@@ -30,4 +30,26 @@
   padding: 16px 24px;
   background-color: var(--color-secondary);
   line-height: 21px;
+  transition: var(--transition);
+}
+
+.recent__topic:hover {
+  background: var(--color-primary-gradient);
+}
+
+@media screen and (min-width: 1024px) {
+  .recent__title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .recent__topics {
+    margin-inline: 20%;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .recent {
+    padding: 48px 15%;
+  }
 }

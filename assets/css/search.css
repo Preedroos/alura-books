@@ -31,6 +31,7 @@
 
 .search__input {
   width: 100%;
+  max-width: 476px;
   text-align: center;
   padding: 12px;
   border: 1px solid var(--color-white);
@@ -52,4 +53,11 @@
 .search__input:focus-visible {
   outline: 0;
   transform: scale(1.05);
+}
+
+@media screen and (min-width: 1024px) {
+  .search__title {
+    font-size: 36px;
+    line-height: 54px;
+  }
 }

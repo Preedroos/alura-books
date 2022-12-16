@@ -27,12 +27,14 @@
 }
 
 .subscribe__input {
+  max-width: 476px;
   display: flex;
   align-items: center;
   gap: 10px;
   border: 1px solid var(--color-primary);
   padding: 10px 24px;
   border-radius: 24px;
+  transition: var(--transition);
 }
 
 .input__icon {
@@ -63,5 +65,31 @@
 }
 
 .input__area:focus-visible {
-  outline: none;
+  outline: 0;
+}
+
+.subscribe__input:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 1024px) {
+  .subscribe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-inline: 15%;
+  }
+
+  .subscribe__title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .subscribe {
+    padding: 80px 25%;
+    flex-direction: row;
+    justify-content: center;
+  }
 }

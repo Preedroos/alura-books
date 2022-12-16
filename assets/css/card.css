@@ -60,4 +60,16 @@
   line-height: 24px;
   width: 100%;
   max-width: 188px;
+  transition: var(--transition);
+}
+
+.card__about:hover {
+  background: var(--color-primary-gradient);
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    margin: 48px auto;
+    grid-template-columns: 2fr 1fr;
+  }
 }
