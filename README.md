@@ -6,7 +6,7 @@
 
 > Project Status: ✅ (Concluded)
 
-> Live Code Preview. GitHub Pages: https://preedroos.github.io/alura-books
+> [Live Code Preview](https://preedroos.github.io/alura-books)
 
 <br />
 
