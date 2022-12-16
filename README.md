@@ -49,7 +49,7 @@
 
 </div>
 
-I built this page along with HTML e CSS: responsively with mobile-first course by Alura. The project itself has no functionality but to improve my skills with the technologies used. Feel free to clone this project and use for your own purpose. This repository is also a reference for me to compare my evolution down the road.
+I built this page along with HTML e CSS: responsively with mobile-first course by Alura. The page is responsive to 428px, 1024px and 1728px screen width. Feel free to clone this project and use for your own purpose. This repository is also a reference for me to compare my evolution down the road.
 
 <!-- BUILT WITH -->
 
@@ -61,7 +61,7 @@ This page was built using only `HTML`, `CSS` and `JavaScript`. Also, the carrous
 
 ### **Functionalities**
 
-The project itself has no functionality but to improve my skills with the technologies used.
+The page is responsive to 428px, 1024px and 1728px screen width.
 
 <p align="right">[ <a href="#readme-top">back to top</a> ]</p>
 
