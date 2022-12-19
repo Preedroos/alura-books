@@ -41,6 +41,8 @@
 
 ## **About The Project**
 
+I built this page along with HTML e CSS: responsively with mobile-first course by Alura. The page is responsive to 428px, 1024px and 1728px screen width. Feel free to clone this project and use for your own purpose. This repository is also a reference for me to compare my evolution down the road.
+
 <div align="center">
 
 ![Project Preview](assets/images/preview-mobile.png)
@@ -48,8 +50,6 @@
 ![Project Preview](assets/images/preview-desktop.png)
 
 </div>
-
-I built this page along with HTML e CSS: responsively with mobile-first course by Alura. The page is responsive to 428px, 1024px and 1728px screen width. Feel free to clone this project and use for your own purpose. This repository is also a reference for me to compare my evolution down the road.
 
 <!-- BUILT WITH -->
 
